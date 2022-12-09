@@ -1,3 +1,5 @@
+
+![foto](./Foto11.jpeg) 
 # **ALEKSANDRA KULINSKAYA**
 
 ## **Contact Information:**
