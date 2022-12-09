@@ -10,6 +10,31 @@
 
 ## **About me**
 
+I am 32 years old. I am a swimming coach.\
+I don't know anything about programming.)\
+But I really want to change my field of activity radically.\
+That’s why I’ve decided to try something new (rs school).
+
+## **Skills**
+SPSS Statistics
+
+## **Code Example**
+
+`multiply = function (a, b) {
+  return a * b;
+}`
+
+## **Experience**
+Small own business – daily rental housing.
+
+## **Language**
+* English (Pre-Intermediate A2)
+* German (Elementary A1)
+* Russian (Advanced С1)
+* Ukrainian (Proficiency С2)
+
+
+
 
 
 
