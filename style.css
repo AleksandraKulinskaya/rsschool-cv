@@ -1,0 +1,18 @@
+
+body {
+	    background-color: beige;
+	}
+	p {
+	    width: 800px;
+	}
+	.center {
+	    padding-left: calc(50% - 400px);
+	    padding-right: calc(50% - 400px);
+	}
+	img {
+	    height: 150px;
+	}
+	.header_intro {
+	    display: flex;
+	    gap: 20px;
+	}
