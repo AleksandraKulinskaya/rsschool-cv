@@ -42,7 +42,9 @@ a{
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;}
+    justify-content: space-between;
+
+}
 .heder_nav_item a:hover{
     color: #000000;
     font-size: 110%;
@@ -90,7 +92,9 @@ a{
     margin: 0;
     padding: 0;
     width: 100%;
-    margin-bottom: 45px;}
+    margin-bottom: 45px;
+
+}
 .photo{
     width: 100%;
     object-fit: cover;
@@ -129,8 +133,10 @@ a{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-}.english {
-	margin-bottom: 54px;
+}
+
+.english {
+    margin-bottom: 54px;
 }
 .english h2{
     color: #ffffff;
