@@ -1,5 +1,5 @@
 
-![foto](/img11.jpeg) 
+![foto](img/img11.jpeg) 
 # **ALEKSANDRA KULINSKAYA**
 
 ## **Contact Information:**
