@@ -192,22 +192,22 @@ a{
     font-weight: 700;
     line-height: 24px;
 }
-.prodjects {
+.projects {
     margin-bottom: 54px;
 }
-.prodjects h2{
+.projects h2{
      background: #d3d3d3;
     margin: 0 60px 20px 60px;
     padding-left: 20px;
 }
-.prodjects p{
+.projects p{
     margin: 0 60px 0 60px;
     padding: 0;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
 }
-.prodjects a {
+.projects a {
     color: #000000;
 }
 .code {
