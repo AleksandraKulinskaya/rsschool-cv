@@ -1,4 +1,5 @@
 
+rsschool-cv-html
 ![foto](img/img11.jpeg) 
 # **ALEKSANDRA KULINSKAYA**
 
@@ -34,9 +35,3 @@ Small own business – daily rental housing.
 * German (Elementary A1)
 * Russian (Advanced С1)
 * Ukrainian (Proficiency С2)
-
-
-
-
-
-
