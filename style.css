@@ -1,18 +1,249 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #000000;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    font-family: 'Georgia', serif;
+}
+.wrapper {
+    max-width: 1280px;
+    height: 100vh;
+    margin: 0 auto;
+}
 
-body {
-	    background-color: beige;
-	}
-	p {
-	    width: 800px;
-	}
-	.center {
-	    padding-left: calc(50% - 400px);
-	    padding-right: calc(50% - 400px);
-	}
-	img {
-	    height: 150px;
-	}
-	.header_intro {
-	    display: flex;
-	    gap: 20px;
-	}
+
+/*START HEADER*/
+.header{
+    background: #000000;
+    width: 100%;
+    height: 70px;
+}
+.header_container {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header_nav_list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+.heder_nav_item a:hover{
+    color: #000000;
+    font-size: 110%;
+}
+.header_nav_link {
+    font-family: 'Georgia', serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+/*END HEADER*/
+
+
+
+
+/*START MAIN*/
+.main{
+    width: 100%;
+}
+.main_container {
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+}
+
+.left_side {
+    width: 100%;
+    min-height: 100vh;
+    background: #000000;
+    color: white;
+}
+.right_side {
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    color: #000000;
+}
+/*END MAIN*/
+
+
+
+
+
+/*START SECTION LEFT*/
+.avatar_photo{
+    background: #000000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 45px;}
+.photo{
+    width: 100%;
+    object-fit: cover;
+}
+.contacts {
+    margin-bottom: 54px;
+}
+.contacts h2{
+    color: white;
+    margin: 0 20px 20px 35px;
+}
+.contacts li{
+    margin: 0 20px 20px 35px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.contacts a {
+    color: white;
+}
+.contacts a:hover{
+    color: #000000;
+    /* font-size: 120%; */
+}
+.skills {
+    margin-bottom: 54px;
+}
+.skills h2{
+    color: white;
+    margin: 0 20px 20px 35px;
+}
+.skills li{
+    margin: 0 20px 20px 35px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}.english {
+	margin-bottom: 54px;
+}
+.english h2{
+    color: #ffffff;
+    margin: 0 20px 20px 35px;
+}
+.english p{
+    margin: 0 20px 20px 35px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+/*END SECTION LEFT*/
+
+
+
+/*START SECTION RIGHT*/
+.info{
+    margin: 125px 80px 145px 60px;
+}
+.info h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+}
+.info h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: #d3d3d3;
+    line-height: 50px;
+}
+.aboutme{
+    margin-bottom: 54px;
+}
+.aboutme h2{
+    background: #d3d3d3;
+    margin: 0 60px 20px 60px;
+    padding-left: 20px;
+}
+.aboutme P{
+    margin: 0 60px 0 60px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.experience {
+    margin-bottom: 54px;
+}
+.experience h2{
+    background: #d3d3d3;
+    margin: 0 60px 20px 60px;
+    padding-left: 20px;
+}
+.experience p{
+    margin: 0 60px 0 60px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.prodjects {
+    margin-bottom: 54px;
+}
+.prodjects h2{
+     background: #d3d3d3;
+    margin: 0 60px 20px 60px;
+    padding-left: 20px;
+}
+.prodjects p{
+    margin: 0 60px 0 60px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.prodjects a {
+    color: #000000;
+}
+.code {
+    margin-bottom: 54px;
+}
+.code h2{
+    background: #d3d3d3;
+    margin: 0 60px 20px 60px;
+    padding-left: 20px;
+}
+.code p{
+    margin: 0 60px 0 60px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+/*END SECTION RIGHT*/
+
+
+/*START FOOTER*/
+.footer{
+    background: #000000;
+    width: 100%;
+    height: 90px;
+}
+.footer_container {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.footer_row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*END FOOTER*/
